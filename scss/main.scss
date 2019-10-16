@@ -137,8 +137,7 @@ ul {
         color: $terminal-input;
     }
 
-    &__return,
-    &__return > a {
+    &__return {
         color: $terminal-return;
     }
     &__return > a {

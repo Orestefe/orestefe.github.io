@@ -94,8 +94,7 @@ ul {
     padding-top: 35px; }
   .statement__input {
     color: #f7f7f7; }
-  .statement__return,
-  .statement__return > a {
+  .statement__return {
     color: rgba(255, 223, 107, 0.9); }
   .statement__return > a {
     text-decoration: none;
