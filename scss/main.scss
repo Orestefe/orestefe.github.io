@@ -221,7 +221,7 @@ ul {
     &--skill {
         border-radius: 4px;
         border: 2px solid #92eac0;
-        padding: 8px;
+        padding: 5px;
         margin-right: 10px;
         margin-bottom: 10px;
         font-size: 0.85em;
@@ -300,11 +300,22 @@ ul {
     }
     .project {
         &__info {
-            padding: 35px;
+            padding: 25px;
             width: 100%;
         }
-    }
-    .project__image {
-        display: none;
+
+        &__card {
+            height: auto;
+        }
+
+        &__image {
+            display: none;
+        }
+        &__skills {
+            justify-content: center;
+        }
+        &__links {
+            justify-content: center;
+        }
     }
 }
