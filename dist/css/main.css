@@ -218,6 +218,7 @@ ul {
     font-size: 0.8em;
     margin-bottom: 10px; }
   .project__info {
+    text-align: center;
     padding: 25px;
     width: 100%; }
   .project__card {
