@@ -37,20 +37,20 @@ ul {
   .nav__item a:hover {
     color: #747fe0; }
 
-.hero__container {
+.hero {
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
+  justify-content: flex-start;
   margin-top: 10vh;
   margin-bottom: 5vh; }
-  .hero__container h1 {
+  .hero h1 {
     font-family: Monaco, sans-serif;
     display: inline-block;
     -webkit-font-smoothing: antialiased;
     font-weight: 400;
     font-size: 4.5em;
     color: #747fe0; }
-  .hero__container p {
+  .hero p {
     line-height: 1.8;
     margin: 30px auto; }
 
@@ -190,6 +190,8 @@ ul {
     color: #747fe0; }
 
 .contact__links {
+  display: flex;
+  justify-content: center;
   text-align: center;
   padding: 2rem 0;
   margin-bottom: 50px; }
@@ -209,18 +211,22 @@ ul {
     justify-content: center;
     width: 75%; }
   .nav__item a {
-    font-size: 1em; }
-  .hero__container h1 {
-    font-size: 2.5em; }
+    font-size: 1rem; }
+  .hero h1 {
+    font-size: 1.75rem; }
+  .terminal {
+    max-width: 701px; }
   .flash-heading {
-    height: 55px; }
+    height: 2rem; }
   .statement {
     font-size: 0.8em;
     margin-bottom: 10px; }
   .project__info {
-    text-align: center;
+    text-align: left;
     padding: 25px;
     width: 100%; }
+    .project__info h1 {
+      text-align: center; }
   .project__card {
     height: auto; }
   .project__image {
