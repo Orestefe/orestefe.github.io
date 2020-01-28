@@ -13,10 +13,7 @@
             href="https://fonts.googleapis.com/css?family=VT323&display=swap"
             rel="stylesheet"
         />
-        <script
-            src="https://kit.fontawesome.com/35e515384b.js"
-            crossorigin="anonymous"
-        ></script>
+        <script src="https://kit.fontawesome.com/35e515384b.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="dist/css/main.css" />
     </head>
     <body>
@@ -24,6 +21,9 @@
             <header>
                 <nav class="nav__container">
                     <ul class="nav__menu">
+                        <li class="nav__item">
+                            <a href="#work">Work</a>
+                        </li>
                         <li class="nav__item">
                             <a href="#projects">Projects</a>
                         </li>
@@ -39,7 +39,7 @@
                         <span class="flash-heading">&nbsp;</span>
                     </div>
                     <p>
-                        Aspiring full-stack developer, fitness enthusiast and
+                        Full-stack developer, fitness enthusiast and
                         lifelong learner. Currently searching for front-end
                         engineer/ front-end developer opportunities.
                     </p>
@@ -117,11 +117,133 @@
                         </div>
                     </div>
                 </section>
-                
-                <section class="projects__container">
-                        <div class="section__title">
-                                <h2 id="projects">Projects</h2>
+                <section class="work__container">
+                    <div class="section__title">
+                            <h2 id="work">Work</h2>
+                        </div>
+                        <div class="project__card">
+                            <video class="video_content" width="400" height="350" autoplay loop preload>
+                                <source src="/dist/img/longhill.webm" type="video/webm">
+                                <source src="/dist/img/longhill.mp4" type="video/mp4">
+                            </video>
+                            <div class="project__info">
+                                <h1>Long Hill Kitchen & Bath</h1>
+                                <p>
+                                    Work In Progress
+                                </p>
+                                <div class="project__skills">
+                                    <span class="project--skill">HTML</span>
+                                    <span class="project--skill">CSS3</span>
+                                    <span class="project--skill">Sass</span>
+                                    <span class="project--skill">JavaScript</span>
+                                </div>
+                                <div class="project__links">
+                                    <a
+                                        class="project-link project-link--disabled"
+                                        target="_blank"
+                                        rel="noopener"
+                                        >View Live Demo
+                                    </a>
+                                </div>
                             </div>
+                        </div>
+                        <div class="project__card">
+                            <img
+                                class="project__image"
+                                src="dist/img/cloudkeep.png"
+                                alt="Budget Application"
+                            />
+                            <div class="project__info">
+                                <h1>CloudKeep</h1>
+                                <p>
+                                    I developed this static site for the startup, CloudKeep. The site was built using the Bootstrap styling and the Hugo static site framework allowing for easy maintability using markdown files.  
+                                </p>
+                                <div class="project__skills">
+                                    <span class="project--skill">HTML5</span>
+                                    <span class="project--skill">CSS3</span>
+                                    <span class="project--skill">Bootstrap</span>
+                                    <span class="project--skill">JavaScript</span>
+                                    <span class="project--skill">Hugo</span>
+                                </div>
+                                <div class="project__links">
+                                    <a
+                                        href="https://cloudkeep.io"
+                                        class="project-link"
+                                        target="_blank"
+                                        rel="noopener"
+                                        >View Live Demo
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project__card">
+                            <img
+                                class="project__image"
+                                src="dist/img/goldmaster.png"
+                                alt=""
+                            />
+                            <div class="project__info">
+                                <h1>GoldMaster Jewelry</h1>
+                                <p>
+                                    A travel site created with the intent to practice my design skills and learn more advanced CSS techniques 
+                                </p>
+                                <div class="project__skills">
+                                    <span class="project--skill">HTML</span>
+                                    <span class="project--skill">CSS3</span>
+                                    <span class="project--skill">Sass</span>
+                                    <span class="project--skill">JavaScript</span>
+                                </div>
+                                <div class="project__links">
+                                    <a
+                                        href="http://goldmasterjewelry.com"
+                                        class="project-link"
+                                        target="_blank"
+                                        rel="noopener"
+                                        >View Live Demo
+                                    </a>
+                                </div>
+                            </div>
+                        </div>    
+                </section>
+                <section class="projects__container">
+                    <div class="section__title">
+                        <h2 id="projects">Projects</h2>
+                    </div>
+                    <div class="project__card">
+                                <img
+                                    class="project__image"
+                                    src="dist/img/natours.png"
+                                    alt=""
+                                />
+                                <div class="project__info">
+                                    <h1>Natours Travel Site</h1>
+                                    <p>
+                                        A travel site created with the intent to practice my design skills and learn more advanced CSS techniques 
+                                    </p>
+                                    <div class="project__skills">
+                                        <span class="project--skill">HTML</span>
+                                        <span class="project--skill">CSS3</span>
+                                        <span class="project--skill">Sass</span>
+                                        <span class="project--skill">JavaScript</span>
+                                    </div>
+                                    <div class="project__links">
+                                        <a
+                                            href="https://orestefe-etch-a-sketch.netlify.com"
+                                            class="project-link"
+                                            target="_blank"
+                                            rel="noopener"
+                                            >View Live Demo
+                                        </a>
+                                        <a
+                                            href=""
+                                            class="project-link project-link--secondary"
+                                            target="_blank"
+                                            rel="noopener"
+                                            >View Source
+                                        </a>
+                                    </div>
+                                </div>
+                    </div>        
                     <div class="project__card">
                         <img
                             class="project__image"
@@ -156,38 +278,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="project__card">
-                        <img
-                            class="project__image"
-                            src="dist/img/cloudkeep.png"
-                            alt="Budget Application"
-                        />
-                        <div class="project__info">
-                            <h1>CloudKeep</h1>
-                            <p>
-                                I maintained this website for the SaaS startup,
-                                CloudKeep. The site was built on the Hugo
-                                framework in order to allow the CEO to easily
-                                make future content changes using markdown.
-                            </p>
-                            <div class="project__skills">
-                                <span class="project--skill">HTML5</span>
-                                <span class="project--skill">CSS3</span>
-                                <span class="project--skill">Bootstrap</span>
-                                <span class="project--skill">JavaScript</span>
-                                <span class="project--skill">Hugo</span>
-                            </div>
-                            <div class="project__links">
-                                <a
-                                    href="https://cloudkeep.io"
-                                    class="project-link"
-                                    target="_blank"
-                                    rel="noopener"
-                                    >View Live Demo
-                                </a>
-                            </div>
-                        </div>
-                    </div>
+                    
                     <div class="project__card">
                         <img
                             class="project__image"
@@ -253,41 +344,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="project__card">
-                        <img
-                            class="project__image"
-                            src="dist/img/etchasketch.png"
-                            alt=""
-                        />
-                        <div class="project__info">
-                            <h1>Etch a Sketch</h1>
-                            <p>
-                                A simple Etch-A-Sketch game, I created to work
-                                on my design and JavaScript skills.
-                            </p>
-                            <div class="project__skills">
-                                <span class="project--skill">HTML</span>
-                                <span class="project--skill">CSS3</span>
-                                <span class="project--skill">JavaScript</span>
-                            </div>
-                            <div class="project__links">
-                                <a
-                                    href="https://orestefe-etch-a-sketch.netlify.com"
-                                    class="project-link"
-                                    target="_blank"
-                                    rel="noopener"
-                                    >View Live Demo
-                                </a>
-                                <a
-                                    href=""
-                                    class="project-link project-link--secondary"
-                                    target="_blank"
-                                    rel="noopener"
-                                    >View Source
-                                </a>
-                            </div>
-                        </div>
-                    </div>
+                    
                 </section>
                 
                 <section class="contact__container">

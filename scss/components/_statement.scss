@@ -1,0 +1,30 @@
+.statement {
+	font-family: "Monaco", sans-serif;
+	margin-bottom: 25px;
+	margin-left: 35px;
+	margin-right: 35px;
+	line-height: 24px;
+
+	&:first-child {
+		padding-top: 35px;
+	}
+
+	&__input {
+		color: $terminal-input;
+	}
+
+	&__return {
+		color: $terminal-return;
+	}
+	&__return > a {
+		text-decoration: none;
+		color: #35feff;
+	}
+}
+
+@media only screen and(max-width: 767px) {
+	.statement {
+		font-size: 0.8em;
+		margin-bottom: 10px;
+	}
+}
